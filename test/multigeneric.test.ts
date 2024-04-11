@@ -8,7 +8,7 @@ describe("Multiple Generic Type", () => {
   }
 
   it("should Multiple", () => {
-    const entry = new Entry<string, number>("Rizal", 22);
+    const entry = new Entry("Rizal", 22);
     expect(entry.key).toBe("Rizal");
     expect(entry.value).toBe(22);
   });
